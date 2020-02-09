@@ -1,6 +1,6 @@
 {
   "name": "easy-cli-react",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "一个简单的cli，简单的下载一个React项目模板",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,9 @@
     "cli",
     "react"
   ],
+  "bin": {
+    "easy-cli-react": "index.js"
+  },
   "author": "coypan",
   "license": "ISC",
   "bugs": {
