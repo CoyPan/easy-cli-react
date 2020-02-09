@@ -1,6 +1,6 @@
 {
   "name": "easy-cli-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "一个简单的cli，简单的下载一个React项目模板",
   "main": "index.js",
   "scripts": {
