@@ -33,7 +33,7 @@ const templateUrl = 'https://github.com/CoyPan/easy-template-react/archive/maste
 const downloadZipName = 'template.zip';
 progress(request(templateUrl))
     .on('progress', function (state) {
-        const progress = Math.floor(state.percent || 0) * 100 + '%';
+        const progress = Math.floor((state.percent || 0) * 100)+ '%';
         console.log(chalk.cyan(`[easy-cli-react]downloading project template (${progress})`));
     })
     .on('error', function (err) {
